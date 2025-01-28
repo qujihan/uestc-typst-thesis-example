@@ -42,8 +42,9 @@
   匿名: "不匿名",
   附录: (include("src/附录A.typ"), include("src/附录B.typ")),
   致谢: include("src/致谢.typ"),
-  参考文献: include("src/参考文献.typ"),
-  攻读学位期间取得成果: include("src/攻读学位期间取得成果.typ"),
+  参考文献: ("src/bib/参考文献1.bib", "src/bib/参考文献2.bib"),
+  // 参考文献: "src/bib/参考文献.bib",
+  // 攻读学位期间取得成果: "src/bib/攻读学位期间取得成果.bib",
 ))
 
 #include "src/chapter1.typ"
