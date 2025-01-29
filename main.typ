@@ -40,10 +40,10 @@
   // 一些可选参数
   打印: "打印",
   匿名: "不匿名",
-  附录: (include("src/appendix-1.typ"), include("src/appendix-2.typ")),
+  附录: (include("src/附录-1.typ"), include("src/附录-2.typ")),
   致谢: include("src/致谢.typ"),
   参考文献: ("src/bib/参考文献1.bib", "src/bib/参考文献2.bib"),
-  // 攻读学位期间取得成果: "src/bib/攻读学位期间取得成果.bib",
+  攻读学位期间取得成果: "src/攻读学位期间取得成果.bib",
 ))
 
 #include "src/chapter1.typ"
