@@ -27,6 +27,9 @@ make
 make watch
 ```
 
+# VSCode User
+按照当前目录下 `.vscode/settings.json` 文件中的选项来修改.
+
 # TODO
 [TodoList](https://github.com/qujihan/uestc-typst-thesis-example/issues/1)
 
