@@ -1,6 +1,8 @@
-# 有时候可能安装了多个版本的typst(brew安装 / cargo 安装 / ...), 需要指定使用哪个版本
+# 有时候可能安装了多个版本的typst(homebrew安装 / cargo安装 / scoop安装 ...) 需要指定使用哪个版本
+# 例如
 # typst := /opt/homebrew/bin/typst
-typst := ~/.cargo/bin/typst
+# typst := ~/.cargo/bin/typst
+typst := typst
 
 # 输出文件名
 file_name := "毕业论文写作指南及例子.pdf"

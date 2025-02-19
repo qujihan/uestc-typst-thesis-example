@@ -5,11 +5,6 @@
 == Typst安装<install>
 Typst相对于LaTex的一个优点就是安装简单了。在Typst的Github Release#footnote(link("https://github.com/typst/typst/releases"))中找到相应的版本，下载对应系统的安装包就可以了。
 
-*NOTE*: #text(fill: red)[截止到2025/2/9，Typst的最新版本是0.12.0。但是本模板适配的Typst版本是0.13.0。 ]
-（因为Typst0.13.0提供了模板所需的非常重要的功能），如果你想尝试，可以在官网下载`0.13.0-rc1`版本，或者使用cargo安装：`cargo install typst-cli@0.13.0-rc1`
-
-#text(fill: green, "不过问题不大，Typst作者说大概一周内就会发布0.13.0正式版本。")
-
 另外还有不那么手动的方式：
 - 对于Rust用户：`cargo install typst-cli`
 - 对于MacOS用户：`brew install typst`
