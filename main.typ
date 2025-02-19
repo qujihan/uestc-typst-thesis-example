@@ -40,7 +40,7 @@
   info-keys.答辩委员会成员职称: "答辩委员会成员职称",
   // 一些可选参数
   info-keys.打印: false,
-  info-keys.匿名: true,
+  info-keys.匿名: false,
   info-keys.中文摘要: include("src/摘要-中文.typ"),
   info-keys.中文摘要关键字: ("电子科技大学", "Typst", "学位论文", "前程似锦"),
   info-keys.英文摘要: include("src/摘要-英语.typ"),
