@@ -1,0 +1,16 @@
+name: build_pdf
+on: push
+jobs:
+  render_pdf:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: typst-community/setup-typst@v3
+      - run: git submodule update --init --recursive
+      - run: typst compile main.typ --root . --font-path ./uestc-thesis-template/fonts/ 论文.pdf
+      - uses: actions/upload-artifact@v4
+        id: artifact-upload-step
+        with:
+          name: thesis
+          path: 论文.pdf
+      - run: echo 'Artifact URL is ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}/artifacts/${{ steps.artifact-upload-step.outputs.artifact-id }}'
