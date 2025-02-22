@@ -29,11 +29,11 @@ git clone https://github.com/YOUR-NAME/uestc-typst-thesis-example.git
 cd thesis; 
 git submodule update --init --recursive
 
-# 生成一个名为 毕业论文写作指南及例子.pdf 的文件
+# 生成一个名为 学位论文写作指南及例子.pdf 的文件
 # 可以在 makefile 中修改生成的文件名
 make 
 
-# 生成一个名为 毕业论文写作指南及例子.pdf 的文件, 并且随着写作实时预览
+# 生成一个名为 学位论文写作指南及例子.pdf 的文件, 并且随着写作实时预览
 # 可以在 makefile 中修改生成的文件名
 make watch
 ```

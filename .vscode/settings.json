@@ -6,7 +6,7 @@
     // 输出路径
     // NOTE: 使用绝对地址
     // NOTE: 以pdf结尾
-    "tinymist.outputPath": "/Users/bytedance/code/uestc-typst-thesis-example/毕业论文写作指南及例子.pdf",
+    "tinymist.outputPath": "/Users/bytedance/code/uestc-typst-thesis-example/学位论文写作指南及例子.pdf",
 
     // 根目录, 修改为example所在目录, 也是在引用图片等资源的根目录
     // NOTE: 使用绝对地址

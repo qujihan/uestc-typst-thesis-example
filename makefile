@@ -5,7 +5,7 @@
 typst := typst
 
 # 输出文件名
-file_name := "毕业论文写作指南及例子.pdf"
+file_name := "学位论文写作指南及例子.pdf"
 
 .PHONY: all build
 

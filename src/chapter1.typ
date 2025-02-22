@@ -5,7 +5,7 @@
 在Github仓库的README中也提到了，学校并没有强制我们使用Word或者LaTeX，只要是符合学校的论文要求既可，如@要求
 所示。正是有了这句话，才有了后面的故事（笑）。
 
-#picture-figure("学校对于毕业论文实现的要求", image("/src/pic/学位论文实现形式不做要求.png", width: 80%))<要求>
+#picture-figure("学校对于学位论文实现的要求", image("/src/pic/学位论文实现形式不做要求.png", width: 80%))<要求>
 
 在知乎上有一篇文章《Typst 中文用户使用体验》#footnote(link("https://zhuanlan.zhihu.com/p/669097092"))，非常详细的介绍了Typst的优点，以及与LaTex的对比。
 
