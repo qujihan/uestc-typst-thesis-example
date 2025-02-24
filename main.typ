@@ -18,9 +18,9 @@
   */
   info-keys.打印: true,
   info-keys.匿名: false,
-  info-keys.黑体字体: "Source Han Sans SC",
-  info-keys.宋体字体: "Source Han Serif SC",
-  info-keys.加粗粗度: 150,
+  // info-keys.黑体字体: "Source Han Sans SC",
+  // info-keys.宋体字体: "Source Han Serif SC",
+  // info-keys.加粗粗度: 150,
   /**
     封面信息
   */
