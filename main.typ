@@ -8,13 +8,28 @@
 #show: thesis.with(info: (
   // DEBUG 开关
   // DEBUG: true,
+
+  /*
+    模板信息
+    会影响输出样式
+
+    字体相关: 建议使用思源系列字体, 请参考生成的文档
+    但是如果想使用其他字体, 可以通过下面的例子修改
+    另外, 有些字体可能会导致使用粗体字重过粗, 可以通过加粗粗度来解决
+  */
+  info-keys.打印: true,
+  info-keys.匿名: false,
+  // info-keys.黑体字体: "Source Han Sans SC",
+  // info-keys.宋体字体: "Source Han Serif SC",
+  // info-keys.加粗粗度: 150,
+  /**
+    封面信息
+  */
   info-keys.分类号: "TP309.2",
   info-keys.密级: "公开",
   info-keys.UDC: "004.78",
-  // 论文基本信息
   info-keys.论文中文标题: "UESTC-Typst学位论文模板\n使用指南及使用示例",
   论文英文标题: "UESTC-Typst Thesis Template Usage Guide and Usage Examples",
-  // 作者信息
   info-keys.作者中文名: "渠哈哈",
   info-keys.作者英文名: "Quhaha",
   info-keys.作者学号: "123456789012",
@@ -27,10 +42,8 @@
   info-keys.作者学科专业: "电磁场与微波技术", // 学术型填写
   info-keys.作者学科专业英文: "Electromagnetic Field and Microwave Technology", // 学术型填写
   info-keys.专业学位领域: "电子信息",
-  // 学院信息
   info-keys.学位授予单位: "电子科技大学",
   info-keys.学位授予日期: "2023年6月",
-  // 指导老师信息
   info-keys.指导老师中文名: "苏老师",
   info-keys.指导老师英文名: "Su Han",
   info-keys.指导老师职称中文: "教授",
@@ -38,16 +51,14 @@
   info-keys.指导老师单位: "电子科技大学 成都",
   info-keys.合作导师中文名: "合作导师中文名",
   info-keys.合作导师职称中文: "合作导师职称中文",
-  // 日期
   info-keys.提交日期: "2025年3月17日",
   info-keys.答辩日期: "2025年4月15日",
-  // 答辩委员相关信息
   info-keys.答辩委员会主席: "老师Z",
   info-keys.答辩委员会成员: ("老师A", "老师B", "老师C"),
   info-keys.答辩委员会成员职称: "答辩委员会成员职称",
-  // 一些可选参数
-  info-keys.打印: true,
-  info-keys.匿名: false,
+  /**
+    论文内容信息
+  */
   info-keys.中文摘要: include("src/摘要-中文.typ"),
   info-keys.中文摘要关键字: ("电子科技大学", "Typst", "学位论文", "前程似锦"),
   info-keys.英文摘要: include("src/摘要-英语.typ"),
